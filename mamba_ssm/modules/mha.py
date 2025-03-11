@@ -13,7 +13,7 @@ except ImportError:
     flash_attn_with_kvcache = None
 
 try:
-    from flash_attn.layers.rotary import RotaryEmbedding
+    from real_rotary import RotaryEmbedding
 except ImportError:
     RotaryEmbedding = None
 
