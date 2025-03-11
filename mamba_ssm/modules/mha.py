@@ -12,10 +12,7 @@ try:
 except ImportError:
     flash_attn_with_kvcache = None
 
-try:
-    from real_rotary import RotaryEmbedding
-except ImportError:
-    RotaryEmbedding = None
+from real_rotary import RotaryEmbedding
 
 try:
     from causal_conv1d import causal_conv1d_fn, causal_conv1d_update
