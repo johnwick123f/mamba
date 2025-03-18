@@ -1,5 +1,5 @@
 [project]
-name = "mamba_ssm"
+name = "mamba_ssm_fork"
 description = "Mamba state-space model"
 readme = "README.md"
 authors = [
